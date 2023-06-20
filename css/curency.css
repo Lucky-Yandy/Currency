@@ -1,0 +1,249 @@
+body {
+  margin: 0px;
+  
+  
+}
+
+.CurrenceChart {
+  
+  width: 1845px; /* Use viewport width */
+  height: 100vh; /* Use viewport height */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 6fr;
+  background-color: #ADD8E6;
+  overflow-x:hidden;
+ 
+  
+}
+.Title{
+
+  grid-row:1;
+  display:flex;
+  
+  background-color:#7FACD6;
+  align-items:flex-end;
+  justify-content:space-between;
+  border-bottom: 2px solid #4682B4;
+  
+  
+}
+.Title-text{
+  margin-bottom:10px;
+  font-size:50px;
+  font-weight:bold;
+  padding-left:20px;
+
+}
+
+.Choice {
+  font-size:40px;
+  text-align:center;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+ 
+  padding-right:20px;
+}
+
+.Choice li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.Choice li:hover {
+  color: pink; 
+  cursor: pointer;
+}
+
+
+
+.CurrencyContainer {
+  display: flex;
+  align-items: flex-end;
+  max-width: 1800px;
+  overflow-x: auto;
+  margin: 0 20px;
+  overflow-y: hidden;
+}
+
+.CurrencyContainer::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.CurrencyContainer::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Background color of the scrollbar track */
+}
+
+.CurrencyContainer::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Border radius of the scrollbar thumb */
+}
+
+.CurrencyContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+
+
+
+
+ 
+ 
+ .TextInBar{
+   display:flex;
+   color:white;
+   font-size:25px;
+   font-weight:bolder;
+   justify-content:center;
+ }
+
+.Style{
+   width:150px;
+   background-color: #FF69B4;
+}
+.Style:hover {
+    
+  border: 4px solid yellow;
+  transform: scale(1);
+}
+
+
+
+.USD{
+   width:150px;
+   background-color:#FFC0CB;
+}
+
+.USD:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}
+.classstyle{
+   width:150px;
+   background-color:#DDA0DD;
+}
+.AUD:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+   }
+   
+.GBP{
+   width:150px;
+   background-color:#FFDAB9;
+   position: relative;
+   
+}
+.GBP:hover {
+   z-index: 2;
+   border: 4px solid yellow;
+   transform: scale(1);
+}
+.ANG{
+   width:150px;
+   background-color:#66CDAA;
+}
+.ANG:hover {
+   border: 4px solid yellow;
+   transform: scale(1); 
+}
+
+.JPY{
+   width:150px;
+   background-color:#20B2AA;
+}
+
+.JPY:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}
+
+.AFN{
+   width:150px;
+   background-color:#FF00FF;
+}
+
+.AFN:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}
+
+.CNY{
+   width:150px;
+   background-color:#B22222;
+}
+.CNY:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}
+	  
+.KRW{
+   width:150px;
+   background-color:#E9967A;
+}
+.KRW:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}
+
+.AMD{
+   width:150px;
+   background-color:#FFF8DC;
+}
+.AMD:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}
+	
+.EUR{
+   width:150px;
+   background-color:#D2691E;
+}
+.EUR:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}	
+	
+.AOA{
+   width:150px;
+   background-color:#FFE4C4;
+}
+.AOA:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}	 
+.AED{
+   width:150px;
+   background-color:#7FFFD4;
+}
+.AED:hover {
+   border: 4px solid yellow;
+   transform: scale(1);
+}	 
+	
+
+
+
+
+
+
+
+
+
+.BottomLine {
+  display: flex;
+  width: 1845px;
+  height: 30px;
+  background-color: #7FACD6;
+  border-bottom: 1px solid #ADD8E5; /* Add a bottom border */
+}
+
+
+.myButton {
+  font-size: 20px; /* Increase the font size to make it bigger */
+  background-color: #7FACD6; /* Change the background color to green */
+  color: white; /* Set the text color to white */
+  padding: 10px 20px; /* Add some padding for a larger button */
+  font-weight:bold;
+}
